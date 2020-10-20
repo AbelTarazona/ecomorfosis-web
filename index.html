@@ -2,70 +2,324 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomorfosis</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Coming Soon - Ecomorfosis</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.min.css" rel="stylesheet">
-
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/icon.png">
 </head>
 
 <body>
 
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="mp4/bg.mp4" type="video/mp4">
-  </video>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index2.html">Ecomorfosis</a>
 
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3" style="color: black;">¡Muy pronto!</h1>
-            <p class="mb-5" style="color: black;">Estamos trabajando duro para finalizar el desarrollo de nuestra página. Nuestra fecha de lanzamiento objetivo es
-              <strong>Octubre 2020</strong></p>
-          </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link"><span data-hover="Home">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mini" class="nav-link"><span data-hover="Mini Lab">Mini Lab</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link"><span data-hover="Blog">Blog</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link"><span data-hover="Equipo">Equipo</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#auspiciadores" class="nav-link"><span
+                                data-hover="Auspiciadores">Auspiciadores</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contacto">Contacto</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto" hidden>
+                    <div class="ml-lg-4">
+                        <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                            <i class="color-mode-icon"></i>
+                            Color mode
+                        </div>
+                    </div>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </nav>
 
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="https://www.facebook.com/Ecomorfosislab-114985027025487">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="https://www.instagram.com/ecomorfosislab/?hl=es-la">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
+    <!-- HOME -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="home">
+        <div class="container">
+            <div class="row">
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Eres parte <span class="mobile-block">del cambio!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hola! Bienvenido a</span>
+                            <div class="animated-info">
+                                <span class="animated-item">Ecomorfosis</span>
+                                <span class="animated-item">Naturaleza</span>
+                                <span class="animated-item">Ambiente</span>
+                            </div>
+                        </h1>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.min.js"></script>
+                        <p>Te invitamos a descubrir un mundo lleno de imaginación, protegiendo el medio ambiente
+                            mientras te diviertes..</p>
+
+                        <div class="custom-btn-group mt-4">
+                            <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Descarga nuestra
+                                app</a>
+                            <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link" hidden>Recibe
+                                información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image">
+                        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%"
+                            height="240">
+                            <source src="mp4/bg.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MINI -->
+    <section class="project py-5" id="mini">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Mini - Lab</h2>
+                    </div>
+
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="col-lg-4">
+                            <img src="img/tablero.png" class="img-fluid" alt="project image">
+
+                            <h5 class="mt-4">Tablero</h5>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/toolkit.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Eco - Toolkit</h5>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/maquinas.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Máquinas</h5>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="project py-5" id="blog">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Blog</h2>
+                    </div>
+
+                    <div class="col-lg-8 mx-auto">
+                        <p>Consejos, noticias, actividades y mucho más relacionado con el maravilloso mundo del
+                            reciclaje</p>
+                    </div>
+
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="col-lg-4">
+                            <img src="img/recurso1.png" class="img-fluid" alt="project image">
+
+                            <h5 class="mt-4">Laboratorio de Innovación Ciudadana, Costa Rica</h5>
+                            <p>Los inicios de esta maravillosa aventura</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/recurso2.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">PostLabic 2020</h5>
+                            <p>Nuestra etapa de escalamiento</p>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/recurso3.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Laboratorio de emergencia</h5>
+                            <p>Una solución en tiempos de crisis</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="project py-5" id="team">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Equipo</h2>
+                    </div>
+
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="col-lg-3">
+                            <img src="img/team/yahaira.png" class="img-fluid" alt="project image">
+
+                            <h5 class="mt-4">Yahaira Corella Cascante</h5>
+                            <p>Gestora Ecoturística</p>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="img/team/adrian.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Adrian Morales Ramírez</h5>
+                            <p>Ingeniero Ambiental</p>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="img/team/cami.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Camila Picco</h5>
+                            <p>Diseñadora Industrial</p>
+
+                        </div>
+
+                        <div class="col-lg-3">
+                            <img src="img/team/abel.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Abel Tarazona Reyes</h5>
+                            <p>Ingeniero de Software</p>
+
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="col-lg-3">
+                            <img src="img/team/robert.png" class="img-fluid" alt="project image">
+
+                            <h5 class="mt-4">Robert Vivas Londoño</h5>
+                            <p>Diseñador Industrial</p>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="img/team/marce.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Marcela Queirolo</h5>
+                            <p>Diseñadora Industrial</p>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="img/team/eli.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Elizabeth Gómez Ibarra</h5>
+                            <p>Diseñadora Industrial</p>
+
+                        </div>
+
+                        <div class="col-lg-3">
+                            <img src="img/team/kath.png" class="img-fluid" alt="project image">
+                            <h5 class="mt-4">Katherine Chavarría Navarro</h5>
+                            <p>Arquitecta</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- auspiciadores -->
+    <section class="project py-5" id="auspiciadores">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+
+                    <div class="col-lg-8 mx-auto">
+                        <p>Con el apoyo de:</p>
+                    </div>
+
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="col-lg-3">
+                            <img src="img/auspiciadores/segib logo150-02.png" style="width: 150px; height: 150px;"
+                                alt="project image">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="img/auspiciadores/ic logo 150-02.png" class="img33" alt="project image">
+
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="img/auspiciadores/mi3dlab150-02.png" class="img33" alt="project image">
+
+                        </div>
+
+                        <div class="col-lg-3">
+                            <img src="img/auspiciadores/pi logo 150-02.png" class="img33" alt="project image">
+
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 40px;">
+                        <div class="col-lg-4">
+                            <img src="img/auspiciadores/devcorp logo 150-02.png" class="img33" alt="project image">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/auspiciadores/ou logo150-02.png" class="img33" alt="project image">
+
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/auspiciadores/nido logo 150-02.png" class="img33" alt="project image">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+                    <p class="copyright-text text-center">Copyright &copy; 2020 Ecomorfosis Lab . Todos los derechos reservados</p>
+                    <p class="copyright-text text-center">Diseñado con ❤️ por <a rel="nofollow"
+                            href="https://www.facebook.com/abelRdx">Ecomorfosis Devs</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 
